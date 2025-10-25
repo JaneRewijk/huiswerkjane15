@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f1f8f1;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #8bb48b;
+    color: white;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: block;
+
+}
+
+nav ul li {
+    margin: 0 5px;
+    padding: 0px;
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    color: #c4e0c4;
+    font-weight: 600;
+    background-color: #417241;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+nav a:hover {
+    background-color: #58c1b0;
+}
+
+main {
+ margin-left: 10px;
+ margin-right: 10px
+}
+
+.content {
+    background-color:  #c4e0c4;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+img {
+    max-width: 50%;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #4e8a4e;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #4e8a4e;
+    color: #c4e0c4;
+}
+
+td.links {
+width: 200px;   
+}
+
+form {
+display: block;
+width: 80%;
+margin: 0 auto;
+
+}
+
+label {
+display: block;
+padding: 6px
+
+}
+
+input, textarea {
+    display: block;
+    padding: 10px;
+    border: 1px solid #4e8a4e;
+    border-radius: 10px;
+    font-family: inherit;
+    background-color: #f1f8f170;
+    margin: 0 auto;
+    margin-bottom: 12px;
+    width: 100%;
+}
+
+button {
+    display: block;
+    background-color: #417241;
+    color: #f1f8f1;
+    border: none;
+    padding: 12px;
+    border-radius: 25px;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-bottom: 12px;
+}
+
+button:hover {
+    background-color: #58c1b0;
+}
+
+footer {
+    background-color: #8bb48b;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px
+}
